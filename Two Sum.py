@@ -1,5 +1,5 @@
 """
-        Intuition (TWO SUM):
+        Intuition:
         - We are given an **unsorted** array and need to find **two indices** such that their values sum up to a target.
         - Brute force checks all pairs — but that's O(n²) time.
         - The optimal solution uses a **hashmap** to store previously seen values and their indices.
